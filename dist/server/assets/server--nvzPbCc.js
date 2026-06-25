@@ -89,7 +89,7 @@ function getResponse() {
 * the dev styles URL for route-scoped CSS collection.
 */
 async function getStartManifest(matchedRoutes) {
-	const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-CL5I2w0d.js");
+	const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-CK9rqrM4.js");
 	const startManifest = tsrStartManifest();
 	let routes = startManifest.routes;
 	routes[rootRouteId];
@@ -1205,7 +1205,7 @@ var getBaseManifest = getProdBaseManifest;
 var createEarlyHintsForRequest = createEarlyHintsCollector;
 async function loadEntries() {
 	const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-		import("./router-CI0YS5nT.js"),
+		import("./router-BRXB-Ump.js"),
 		import("./start-EOAzYlXa.js"),
 		import("./empty-plugin-adapters-D9UWiqvJ.js")
 	]);
@@ -1219,8 +1219,8 @@ function getEntries() {
 	if (!entriesPromise) entriesPromise = loadEntries();
 	return entriesPromise;
 }
-var ROUTER_BASEPATH = "/";
-var SERVER_FN_BASE = "/_serverFn/";
+var ROUTER_BASEPATH = "Harish_portfolio";
+var SERVER_FN_BASE = "/Harish_portfolio/_serverFn/";
 var IS_PRERENDERING = process.env.TSS_PRERENDERING === "true";
 var IS_SHELL_ENV = process.env.TSS_SHELL === "true";
 var IS_DEV = false;

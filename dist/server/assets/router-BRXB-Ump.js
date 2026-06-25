@@ -3,7 +3,7 @@ import { HeadContent, Link, Outlet, Scripts, createFileRoute, createRootRouteWit
 import { jsx, jsxs } from "react/jsx-runtime";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 //#region src/styles.css?url
-var styles_default = "/assets/styles-toBLMTqR.css";
+var styles_default = "/Harish_portfolio/assets/styles-toBLMTqR.css";
 //#endregion
 //#region src/lib/lovable-error-reporting.ts
 function reportLovableError(error, context = {}) {
@@ -197,6 +197,7 @@ var routeTree = Route$1._addFileChildren(rootRouteChildren)._addFileTypes();
 var getRouter = () => {
 	return createRouter({
 		routeTree,
+		basepath: "/Harish_portfolio",
 		context: { queryClient: new QueryClient() },
 		scrollRestoration: true,
 		defaultPreloadStaleTime: 0
